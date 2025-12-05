@@ -519,5 +519,4 @@ body::before {
     transform: translateY(-100px) translateX(100px) rotate(360deg);
     opacity: 0;
   }
-
 }
