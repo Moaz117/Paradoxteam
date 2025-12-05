@@ -8,9 +8,19 @@
   <link rel="stylesheet" href="styles.css">
   <script src="js/app.js" defer></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+.mobile-menu-btn { display: none; }
+.nav-overlay { display: none; }
+.mobile-only { display: none; }
+</style>
 </head>
 
 <body>
+<button class="mobile-menu-btn" id="mobileMenuBtn">
+  <i class="fas fa-bars"></i>
+</button>
+
+<div class="nav-overlay" id="navOverlay"></div>
   <!-- النجوم المتلألئة -->
   <div class="stars" id="stars"></div>
   
@@ -165,4 +175,5 @@
 </body>
 
 </html>
+
 
